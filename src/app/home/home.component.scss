@@ -107,11 +107,11 @@ body {
 }
 
 .wrapper {
-  height: 65px;
+  height: 35px;
   display: flex;
   align-items: right;
   justify-content:center;
-  background-color: #c96a27;
+  background-color: #2896d1f5;
 }
 
 nav {
@@ -198,16 +198,18 @@ a {
 .mat-icon {
   vertical-align: middle;
 }
+
 .bg-image {
   /* The image used */
   background-image: url("../../assets/img/food1.jpg");
   
-  /* Add the blur effect */
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  /* Add the blur effect 
+  filter: blur(2px);
+  -webkit-filter: blur(2px);*/
   
   /* Full height */
-  height: 50%; 
+  height: 40%; 
+  
   
   /* Center and scale the image nicely */
   background-position: center;
